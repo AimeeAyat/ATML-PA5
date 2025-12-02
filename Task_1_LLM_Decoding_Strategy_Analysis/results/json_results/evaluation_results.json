@@ -1,0 +1,300 @@
+{
+    "temperature_ablation": {
+        "Greedy": {
+            "temperatures": {
+                "0.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.2621145374449339,
+                        "Distinct-2": 0.4564498346196251,
+                        "Distinct-3": 0.49448123620309054
+                    },
+                    "avg_reward": 1.2499333143234252,
+                    "num_samples": 10
+                },
+                "0.5": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.2621145374449339,
+                        "Distinct-2": 0.4564498346196251,
+                        "Distinct-3": 0.49448123620309054
+                    },
+                    "avg_reward": 1.2499333143234252,
+                    "num_samples": 10
+                },
+                "0.8": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.2621145374449339,
+                        "Distinct-2": 0.4564498346196251,
+                        "Distinct-3": 0.49448123620309054
+                    },
+                    "avg_reward": 1.2499333143234252,
+                    "num_samples": 10
+                },
+                "1.0": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.2621145374449339,
+                        "Distinct-2": 0.4564498346196251,
+                        "Distinct-3": 0.49448123620309054
+                    },
+                    "avg_reward": 1.2499333143234252,
+                    "num_samples": 10
+                },
+                "1.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.2621145374449339,
+                        "Distinct-2": 0.4564498346196251,
+                        "Distinct-3": 0.49448123620309054
+                    },
+                    "avg_reward": 1.2499333143234252,
+                    "num_samples": 10
+                }
+            },
+            "aggregated_metrics": {
+                "Distinct-1_avg": 0.2621145374449339,
+                "Distinct-2_avg": 0.4564498346196252,
+                "Distinct-3_avg": 0.49448123620309054
+            },
+            "total_time_seconds": 656.4980244636536
+        },
+        "Beam Search": {
+            "temperatures": {
+                "0.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.24826789838337182,
+                        "Distinct-2": 0.423121387283237,
+                        "Distinct-3": 0.4652777777777778
+                    },
+                    "avg_reward": 2.292534527182579,
+                    "num_samples": 10
+                },
+                "0.5": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.23385012919896642,
+                        "Distinct-2": 0.3958602846054334,
+                        "Distinct-3": 0.4417098445595855
+                    },
+                    "avg_reward": 1.39927838742733,
+                    "num_samples": 10
+                },
+                "0.8": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.24701670644391407,
+                        "Distinct-2": 0.4157706093189964,
+                        "Distinct-3": 0.4605263157894737
+                    },
+                    "avg_reward": 2.476803669333458,
+                    "num_samples": 10
+                },
+                "1.0": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.24879807692307693,
+                        "Distinct-2": 0.42478941034897716,
+                        "Distinct-3": 0.46987951807228917
+                    },
+                    "avg_reward": 2.149838289618492,
+                    "num_samples": 10
+                },
+                "1.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.20365535248041775,
+                        "Distinct-2": 0.3241830065359477,
+                        "Distinct-3": 0.36387434554973824
+                    },
+                    "avg_reward": -0.2932845801115036,
+                    "num_samples": 10
+                }
+            },
+            "aggregated_metrics": {
+                "Distinct-1_avg": 0.23631763268594938,
+                "Distinct-2_avg": 0.3967449396185183,
+                "Distinct-3_avg": 0.44025356034977287
+            },
+            "total_time_seconds": 5153.733974456787
+        },
+        "Top-K": {
+            "temperatures": {
+                "0.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.38842105263157894,
+                        "Distinct-2": 0.7239199157007377,
+                        "Distinct-3": 0.8248945147679325
+                    },
+                    "avg_reward": 0.4395184822380543,
+                    "num_samples": 10
+                },
+                "0.5": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.35019455252918286,
+                        "Distinct-2": 0.6484907497565725,
+                        "Distinct-3": 0.7514619883040936
+                    },
+                    "avg_reward": 0.5091293975710869,
+                    "num_samples": 10
+                },
+                "0.8": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.44779116465863456,
+                        "Distinct-2": 0.8673366834170855,
+                        "Distinct-3": 0.9577464788732394
+                    },
+                    "avg_reward": 0.587209153175354,
+                    "num_samples": 10
+                },
+                "1.0": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.49430740037950666,
+                        "Distinct-2": 0.8898385565052231,
+                        "Distinct-3": 0.967680608365019
+                    },
+                    "avg_reward": -0.8656996369361878,
+                    "num_samples": 10
+                },
+                "1.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.5137289636846767,
+                        "Distinct-2": 0.9140070921985816,
+                        "Distinct-3": 0.9795918367346939
+                    },
+                    "avg_reward": -1.5670100305229426,
+                    "num_samples": 10
+                }
+            },
+            "aggregated_metrics": {
+                "Distinct-1_avg": 0.4388886267767159,
+                "Distinct-2_avg": 0.8087185995156402,
+                "Distinct-3_avg": 0.8962750854089956
+            },
+            "total_time_seconds": 845.6098256111145
+        },
+        "Top-P": {
+            "temperatures": {
+                "0.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.32341269841269843,
+                        "Distinct-2": 0.64746772591857,
+                        "Distinct-3": 0.7544731610337972
+                    },
+                    "avg_reward": 1.4045164585113525,
+                    "num_samples": 10
+                },
+                "0.5": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.3994082840236686,
+                        "Distinct-2": 0.7729516288252715,
+                        "Distinct-3": 0.8873517786561265
+                    },
+                    "avg_reward": 1.2802514791488648,
+                    "num_samples": 10
+                },
+                "0.8": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.42033542976939203,
+                        "Distinct-2": 0.8184679958027282,
+                        "Distinct-3": 0.930672268907563
+                    },
+                    "avg_reward": 0.24824845790863037,
+                    "num_samples": 10
+                },
+                "1.0": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.4881720430107527,
+                        "Distinct-2": 0.8751345532831001,
+                        "Distinct-3": 0.9482758620689655
+                    },
+                    "avg_reward": -0.013890612125396728,
+                    "num_samples": 10
+                },
+                "1.2": {
+                    "distinct_scores": {
+                        "Distinct-1": 0.6383333333333333,
+                        "Distinct-2": 0.963302752293578,
+                        "Distinct-3": 0.986644407345576
+                    },
+                    "avg_reward": -3.8168172270059584,
+                    "num_samples": 10
+                }
+            },
+            "aggregated_metrics": {
+                "Distinct-1_avg": 0.45393235770996904,
+                "Distinct-2_avg": 0.8154649312246496,
+                "Distinct-3_avg": 0.9014834956024057
+            },
+            "total_time_seconds": 860.4936010837555
+        }
+    },
+    "across_prompt_diversity": {
+        "Greedy": {
+            "distinct_scores": {
+                "Distinct-1": 0.5242290748898678,
+                "Distinct-2": 0.9028697571743929,
+                "Distinct-3": 0.9690265486725663
+            },
+            "num_samples": 5,
+            "total_time_seconds": 65.40942311286926
+        },
+        "Beam Search": {
+            "distinct_scores": {
+                "Distinct-1": 0.49403341288782815,
+                "Distinct-2": 0.8205741626794258,
+                "Distinct-3": 0.9016786570743405
+            },
+            "num_samples": 5,
+            "total_time_seconds": 512.068038225174
+        },
+        "Top-K": {
+            "distinct_scores": {
+                "Distinct-1": 0.5462962962962963,
+                "Distinct-2": 0.8942486085343229,
+                "Distinct-3": 0.9479553903345725
+            },
+            "num_samples": 5,
+            "total_time_seconds": 83.36794948577881
+        },
+        "Top-P": {
+            "distinct_scores": {
+                "Distinct-1": 0.5722222222222222,
+                "Distinct-2": 0.9052924791086351,
+                "Distinct-3": 0.9636871508379888
+            },
+            "num_samples": 5,
+            "total_time_seconds": 68.52192044258118
+        }
+    },
+    "within_prompt_diversity": {
+        "Greedy": {
+            "distinct_scores": {
+                "Distinct-1": 0.12666666666666668,
+                "Distinct-2": 0.18958611481975968,
+                "Distinct-3": 0.19786096256684493
+            },
+            "num_samples": 5,
+            "total_time_seconds": 104.38253736495972
+        },
+        "Beam Search": {
+            "distinct_scores": {
+                "Distinct-1": 0.12835820895522387,
+                "Distinct-2": 0.17339312406576982,
+                "Distinct-3": 0.18263473053892215
+            },
+            "num_samples": 5,
+            "total_time_seconds": 522.2353837490082
+        },
+        "Top-K": {
+            "distinct_scores": {
+                "Distinct-1": 0.4222539229671897,
+                "Distinct-2": 0.8114285714285714,
+                "Distinct-3": 0.9055793991416309
+            },
+            "num_samples": 5,
+            "total_time_seconds": 106.20418334007263
+        },
+        "Top-P": {
+            "distinct_scores": {
+                "Distinct-1": 0.4574314574314574,
+                "Distinct-2": 0.8395953757225434,
+                "Distinct-3": 0.9334298118668596
+            },
+            "num_samples": 5,
+            "total_time_seconds": 111.74359273910522
+        }
+    }
+}
