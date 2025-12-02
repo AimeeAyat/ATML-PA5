@@ -1,0 +1,108 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading dpo from G:\Rabia-Salman\PA5_IMP\dpo_training\dpo_training_output...
+Loading ppo from G:\Rabia-Salman\PA5_IMP\ppo_training\ppo_training_output...
+Loading grpo from G:\Rabia-Salman\PA5_IMP\grpo_training\grpo_training_output\checkpoint-10000...
+Evaluating prompts:   0%|          | 0/50 [00:00<?, ?it/s]Evaluating prompts:   2%|2         | 1/50 [00:00<00:14,  3.41it/s]Evaluating prompts:   4%|4         | 2/50 [00:01<00:34,  1.40it/s]Evaluating prompts:   6%|6         | 3/50 [00:01<00:21,  2.19it/s]Evaluating prompts:   8%|8         | 4/50 [00:07<02:05,  2.72s/it]Evaluating prompts:  10%|#         | 5/50 [00:07<01:21,  1.81s/it]Evaluating prompts:  12%|#2        | 6/50 [00:08<00:55,  1.27s/it]Evaluating prompts:  14%|#4        | 7/50 [00:08<00:39,  1.09it/s]Evaluating prompts:  16%|#6        | 8/50 [00:08<00:29,  1.43it/s]Evaluating prompts:  18%|#8        | 9/50 [00:08<00:22,  1.85it/s]Evaluating prompts:  20%|##        | 10/50 [00:08<00:17,  2.28it/s]Evaluating prompts:  22%|##2       | 11/50 [00:20<02:31,  3.88s/it]Evaluating prompts:  24%|##4       | 12/50 [00:20<01:44,  2.76s/it]Evaluating prompts:  26%|##6       | 13/50 [00:21<01:14,  2.01s/it]Evaluating prompts:  28%|##8       | 14/50 [00:26<01:53,  3.14s/it]Evaluating prompts:  30%|###       | 15/50 [00:27<01:19,  2.26s/it]Evaluating prompts:  32%|###2      | 16/50 [00:27<00:56,  1.65s/it]Evaluating prompts:  34%|###4      | 17/50 [00:27<00:40,  1.22s/it]Evaluating prompts:  36%|###6      | 18/50 [00:27<00:29,  1.08it/s]Evaluating prompts:  38%|###8      | 19/50 [00:27<00:22,  1.38it/s]Evaluating prompts:  40%|####      | 20/50 [00:28<00:17,  1.72it/s]Evaluating prompts:  42%|####2     | 21/50 [00:34<01:06,  2.30s/it]Evaluating prompts:  44%|####4     | 22/50 [00:34<00:47,  1.68s/it]Evaluating prompts:  46%|####6     | 23/50 [02:03<12:32, 27.87s/it]Evaluating prompts:  48%|####8     | 24/50 [02:04<08:29, 19.59s/it]Evaluating prompts:  50%|#####     | 25/50 [02:26<08:30, 20.43s/it]Evaluating prompts:  52%|#####2    | 26/50 [02:29<06:05, 15.23s/it]Evaluating prompts:  54%|#####4    | 27/50 [02:46<06:05, 15.89s/it]Evaluating prompts:  56%|#####6    | 28/50 [04:04<12:35, 34.33s/it]Evaluating prompts:  58%|#####8    | 29/50 [04:04<08:26, 24.10s/it]Evaluating prompts:  60%|######    | 30/50 [04:24<07:37, 22.89s/it]Evaluating prompts:  62%|######2   | 31/50 [04:26<05:12, 16.47s/it]Evaluating prompts:  64%|######4   | 32/50 [04:29<03:46, 12.59s/it]Evaluating prompts:  66%|######6   | 33/50 [06:40<13:39, 48.21s/it]Evaluating prompts:  68%|######8   | 34/50 [06:41<09:00, 33.81s/it]Evaluating prompts:  70%|#######   | 35/50 [06:41<05:55, 23.73s/it]Evaluating prompts:  72%|#######2  | 36/50 [06:50<04:31, 19.38s/it]Evaluating prompts:  74%|#######4  | 37/50 [06:50<02:57, 13.66s/it]Evaluating prompts:  76%|#######6  | 38/50 [06:52<02:01, 10.10s/it]Evaluating prompts:  78%|#######8  | 39/50 [06:52<01:18,  7.14s/it]Evaluating prompts:  80%|########  | 40/50 [07:09<01:38,  9.84s/it]Evaluating prompts:  82%|########2 | 41/50 [08:08<03:42, 24.68s/it]Evaluating prompts:  84%|########4 | 42/50 [08:08<02:18, 17.35s/it]Evaluating prompts:  86%|########6 | 43/50 [08:08<01:25, 12.22s/it]Evaluating prompts:  88%|########8 | 44/50 [08:09<00:51,  8.63s/it]Evaluating prompts:  90%|######### | 45/50 [08:09<00:30,  6.13s/it]Evaluating prompts:  92%|#########2| 46/50 [08:09<00:17,  4.36s/it]Evaluating prompts:  94%|#########3| 47/50 [08:09<00:09,  3.15s/it]Evaluating prompts:  96%|#########6| 48/50 [10:12<01:18, 39.09s/it]Evaluating prompts:  98%|#########8| 49/50 [10:24<00:30, 30.82s/it]Evaluating prompts: 100%|##########| 50/50 [10:24<00:00, 21.67s/it]Evaluating prompts: 100%|##########| 50/50 [10:24<00:00, 12.49s/it]
+
+================================================================================
+CATASTROPHIC FORGETTING ANALYSIS (Perplexity)
+================================================================================
+        mean    std    min     max
+model                             
+dpo    6.850  4.080  2.411  13.721
+grpo   7.221  6.830  1.101  21.424
+ppo    4.281  4.392  1.078  16.184
+
+Interpretation: Lower perplexity = better instruction-following preservation
+
+================================================================================
+VERBOSITY BIAS ANALYSIS (Response Length by Type)
+================================================================================
+                    mean  median     std  count  skew
+model type                                           
+dpo   constrained  102.2     0.0  323.18     10  2.67
+      creative      49.5     6.5   90.34     10  1.48
+      factual        0.0     0.0    0.00     10   NaN
+      hack           5.6     0.0   14.01     10  2.36
+      reasoning      0.0     0.0    0.00     10   NaN
+grpo  constrained   34.3     0.0   94.19     10  2.62
+      creative     100.9     9.0  152.99     10  0.88
+      factual        0.0     0.0    0.00     10   NaN
+      hack         114.7     0.0  321.83     10  2.60
+      reasoning      9.8     0.0   30.99     10  2.67
+ppo   constrained  154.6    17.0  320.75     10  2.27
+      creative     262.0    78.0  411.00     10  1.34
+      factual       12.6     0.0   35.51     10  2.60
+      hack         210.9     0.0  428.71     10  1.49
+      reasoning     20.7     0.0   65.46     10  2.67
+
+Overall Response Length by Model:
+        mean    std
+model              
+dpo     31.5  149.5
+grpo    51.9  165.5
+ppo    132.2  308.2
+
+================================================================================
+LENGTH CONSTRAINT COMPLIANCE (%)
+================================================================================
+model
+dpo     90.0
+grpo    90.0
+ppo     70.0
+Name: obeys_length_limit, dtype: float64
+Target: 100% (model respects explicit length constraints)
+
+================================================================================
+STYLISTIC ARTIFACT ANALYSIS (Reward Hacking Indicators)
+================================================================================
+      hedging_count     repetitions  ... excessive_punctuation unnatural_formatting    
+               mean max        mean  ...                   max                 mean max
+model                                ...                                               
+dpo            0.08   2        0.04  ...                     0                 0.00   0
+grpo           0.10   2        0.10  ...                     1                 0.00   0
+ppo            0.00   0        0.18  ...                     1                 0.02   1
+
+[3 rows x 8 columns]
+
+Interpretation:
+  Hedging phrases: I think, probably, might, etc. (high = exploiting uncertainty)
+  Repetitions: Same word >4x (high = unnatural patterns)
+  Excessive punctuation: >10 !! or ?? (high = artificial enthusiasm)
+  Unnatural formatting: ###, ___, *** (high = markdown abuse)
+
+================================================================================
+REWARD HACKING SEVERITY (Hack Prompt Responses)
+================================================================================
+Average artifacts on HACK prompts:
+       hedging_count  repetitions  excessive_punctuation  unnatural_formatting
+model                                                                         
+dpo              0.0          0.0                    0.0                   0.0
+grpo             0.0          0.1                    0.1                   0.0
+ppo              0.0          0.2                    0.2                   0.0
+
+(Higher values on hack prompts than normal prompts = reward hacking detected)
+
+================================================================================
+QUALITY CONSISTENCY (Coefficient of Variation)
+================================================================================
+Coefficient of Variation of Response Length (by prompt type):
+  dpo     : CV=1.270  [INCONSISTENT (reward hacking flag)]
+  grpo    : CV=0.908  [INCONSISTENT (reward hacking flag)]
+  ppo     : CV=0.759  [INCONSISTENT (reward hacking flag)]
+
+================================================================================
+GENERATING COMPARISON PLOTS
+================================================================================
+Saved comparison plot to: alignment_eval_20251202_112620\alignment_comparison.png
+
+Evaluation complete! Results saved to alignment_eval_20251202_112620/
+  - full_results.csv (detailed per-prompt metrics)
+  - alignment_comparison.png (6-plot comparison)
+  - COMPREHENSIVE_SUMMARY.txt (full analysis report)
+Exception ignored in: <function ResourceTracker.__del__ at 0x000001C39BC0E020>
+Traceback (most recent call last):
+  File "C:\Users\salma\AppData\Local\Programs\Python\Python312\Lib\site-packages\multiprocess\resource_tracker.py", line 80, in __del__
+  File "C:\Users\salma\AppData\Local\Programs\Python\Python312\Lib\site-packages\multiprocess\resource_tracker.py", line 89, in _stop
+  File "C:\Users\salma\AppData\Local\Programs\Python\Python312\Lib\site-packages\multiprocess\resource_tracker.py", line 102, in _stop_locked
+AttributeError: '_thread.RLock' object has no attribute '_recursion_count'
