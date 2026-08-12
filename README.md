@@ -99,10 +99,6 @@ Task 2 may expect saved reward models or other artifacts; check the subfolders (
 - Task_1_LLM_Decoding_Strategy_Analysis/IMPLEMENTATION_SUMMARY.md — long-form implementation notes and analysis
 - Task_2_LLM_ALIGNMENT/eval_alignment_pathologies.py — alignment checks & logging
 
-## Try asking
-- "How do I change the model used for decoding experiments in Task_1?"
-- "Where are the evaluation results and JSON output from Task_1 saved?"
-- "Can you show the METHOD section inside IMPLEMENTATION_SUMMARY.md for Task_1?"
 
 ## Contact / Author
 Repository owner: rabiaaslam92
